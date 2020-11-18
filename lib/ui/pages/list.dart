@@ -4,15 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:todo_flutter/bll/models/todo.dart';
 import 'package:todo_flutter/common/todolist.dart';
 
-class TodoListPage extends StatefulWidget {
-  TodoListPage({Key key}) : super(key: key);
-
-  @override
-  _TodoListPageState createState() => _TodoListPageState();
-}
-
-class _TodoListPageState extends State<TodoListPage>
-    with SingleTickerProviderStateMixin {
+class TodoListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
