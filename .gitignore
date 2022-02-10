@@ -8,12 +8,16 @@
 .buildlog/
 .history
 .svn/
+.key.properties/
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
+*.jks
 .idea/
+*.jks
+.vscode/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -30,6 +34,16 @@
 .pub-cache/
 .pub/
 /build/
+macos/
+ios/build/
+ios/Podfile.lock
+.fvm
+pubspec.lock
+windows/
+test/
+
+# Generated files
+*.g.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
@@ -39,3 +53,12 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+assets/urls.txt
+
+web/
