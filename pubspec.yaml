@@ -68,12 +68,5 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
-    - res/images/todoback.jpg
-    - res/images/2.0x/todoback.jpg
-    - res/images/3.0x/todoback.jpg
-    - res/images/4.0x/todoback.jpg
-    - res/images/listback.jpg
-    - res/images/2.0x/listback.jpg
-    - res/images/3.0x/listback.jpg
-    - res/images/4.0x/listback.jpg
-    - res/todolist.json
+    - assets/images/
+    - assets/todolist.json
